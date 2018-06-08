@@ -15,12 +15,12 @@ Outoput layer.
 <p>
 <b>PlantClef2015</b>
 1000 species of plants represented by images of the whole plant or different parts of the plants.
-Data contains 113204 images which is split initialy as 80:30 for train:test.
-Train set split 80:30 again for Cross-Validaiton. Each image is identified based on taxonomic ClassId.
+Train set split 80:30 for Cross-Validaiton. Each image is identified based on taxonomic ClassId.
 Unique species ClassId mapped to indexes in range [0,999] representing the class id for model output.
 Mapping of ImageId (Image name) to generated classes mapping saved as a numpy array file.
 I rescalled the images to (224,224,3) seperatley. Possible to specify resizing
 using a Keras library.
+  Test on selected set of the offered test dataset. Only 4633 images corresponding to one of the 1000 species.
 Source: http://www.imageclef.org/lifeclef/2016/plant
 </p>
 
