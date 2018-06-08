@@ -1,6 +1,6 @@
 # finetuning-plants-classification
 
-Fine-Tuning on ResNet50 pre-trained on plantClef2016 Dataset.
+Fine-Tuning on ResNet50 pre-trained on PlantClef2016 Dataset.
 
 <p>
 Using Keras high API with
